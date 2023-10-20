@@ -4946,6 +4946,11 @@ body {
     height: 220px;
   }
 
+  .is_a_section {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .wrapper-image.is_relative {
     width: 18rem;
     height: 18rem;
@@ -5036,11 +5041,13 @@ body {
   }
 
   .image-3-copy {
+    display: none;
     top: -1%;
   }
 
   .image-15-copy {
     z-index: 3;
+    display: none;
     position: absolute;
     top: auto;
     bottom: -1%;
